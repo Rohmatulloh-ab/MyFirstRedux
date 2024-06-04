@@ -1,0 +1,44 @@
+img{
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+}
+p{
+    height: 50px;
+    
+}
+li{
+    border-radius: 22px;
+    width: 400px;
+
+}
+.borradius{
+    border-radius: 30px;
+}
+ul{
+    height: 100%;
+    right: 200px;
+}
+.widen{
+    top: 0;
+    margin-left: 50px;
+    width: 300px;
+    position: fixed;
+   
+    
+    
+}
+.marg{
+    
+    border: 2px solid green;
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 200px;
+    height: 40px;
+    
+    
+}
+/* .opac{
+   margin-top: 160px;
+height: 30px;
+} */

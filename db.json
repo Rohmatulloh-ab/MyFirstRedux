@@ -1,0 +1,60 @@
+{
+  "news": [
+    {
+      "id": 2,
+      "name": "My first news ",
+      "desciption": "Palestine has been recognised as an independent state by Ireland, Norway and Spain. The European nations are now pushing for other countries to acknowledge pre-1967 borders and say this recognition is the only way to ensure peace.",
+      "category": "hotnews"
+    },
+    {
+      "id": "29958a19-5765-4cea-b70b-97df1d48a5fd",
+      "name": "Raxmatulla Abdullaev",
+      "description": "hghg",
+      "category": "sportnews"
+    },
+    {
+      "id": "4b142c36-6159-4199-9d72-402f3fc0df22",
+      "name": "bambr rassiya putin",
+      "description": "uhjkj",
+      "category": "hotnews"
+    },
+    {
+      "id": "20396f5d-135d-49ca-9aec-c674b0cfbf8f",
+      "name": "bambr rassiya putin",
+      "description": "sdfhg",
+      "category": ""
+    },
+    {
+      "id": "f09367d3-25ce-4e15-bb7c-4fadf835370b",
+      "name": "bambr rassiya putin",
+      "description": "d",
+      "category": "worldnews"
+    }
+  ],
+  "filter": [
+    {
+      "name": "all",
+      "label": "all",
+      "className": "btn-outline-dark",
+      "id": "9a01"
+    },
+    {
+      "name": "hotnews",
+      "label": "hotnews",
+      "className": "btn-danger",
+      "id": "eda1"
+    },
+    {
+      "name": "sportnews",
+      "label": "sportnews",
+      "className": "btn-info",
+      "id": "eeef"
+    },
+    {
+      "name": "worldnews",
+      "label": "worldnews",
+      "className": "btn-success",
+      "id": "de9b"
+    }
+  ]
+}
