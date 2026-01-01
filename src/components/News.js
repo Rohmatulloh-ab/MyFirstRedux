@@ -28,7 +28,7 @@ request("http://localhost:3001/news")
       .catch(()=> dispatch(newsFetchErr()))
 // eslint-disable-new-line 
     },
-    []);
+    [dispatch,request]);
     // eslint-disable-new-line
 
 
