@@ -21,15 +21,20 @@ function News() {
 
 
 
-    useEffect(()=>{
-dispatch(newsFetching())
-request("http://localhost:3001/news")
-      .then(data => dispatch(newsFetched(data)))
-      .catch(()=> dispatch(newsFetchErr()))
-// eslint-disable-new-line 
-    },
-    [dispatch,request]);
-    // eslint-disable-new-line
+useEffect(() => {
+  dispatch(newsFetching());
+
+  // ✅ Conditional URL: localhost yoki online backend
+  const url =
+    window.location.hostname === "localhost"
+      ? "http://localhost:3001/news"
+      : "https://your-online-backend.com/news"; // o'z backend URL'ingni yoz
+
+  request(url)
+    .then(data => dispatch(newsFetched(data)))
+    .catch(() => dispatch(newsFetchErr()));
+}, [dispatch, request]);
+
 
 
 
